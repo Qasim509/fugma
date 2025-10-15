@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+      color: #000;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 40px 10%;
+    }
+
+    .hero img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .hero h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #555;
+      font-size: 14px;
+    }
+
+    /* Blog Grid */
+    .articles {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .articles h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 30px 10%;
+      margin-top: 50px;
+    }
+
+    footer p {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 40px 0;
+    }
+</style>
+        
+
+      
+   
+
+    
+   
+</head>
+<body>
+    <header>
+    <h1>NORDIC ROSE</h1>
+    <nav>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Links</a>
+      <a href="#">Projects</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="./pic-hero.png" alt="Hero">
+    <h2>A few words about this blog platform, Ghost, and how this site was made</h2>
+    <p>Why Ghost (& Figma) instead of Medium, WordPress or other options?</p>
+  </section>
+  <hr>
+
+   <section class="articles">
+    <h3>All articles</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="./pic-2.png " alt="">
+        <p>Here are some things you should know regarding how we work</p>
+      </div>
+       <div class="card">
+        <img src="./pic-3.png" alt="">
+        <p>Granny gives everyone the finger, and other tips from OFFF Barcelona</p>
+      </div>
+       <div class="card">
+        <img src="./pic-4.png" alt="">
+        <p>Hello world, or in other words, why this blog exists</p>
+      </div>
+      <div class="card">
+        <img src="./pic-5.png" alt="">
+        <p>Here are some things you should know regarding how we work </p>
+      </div>
+      <div class="card">
+        <img src="./pic-6.png" alt="">
+        <p>Connecting artificial intelligence with digital product design</p>
+      </div>
+      <div class="card">
+        <img src="./pic-7.png" alt="">
+        <p>It’s all about finding the perfect balance</p>
+      </div>
+      <div class="card">
+        <img src="./pic-8.png" alt="">
+        <p>I believe learning is the most important skill</p>
+      </div>
+      <div class="card">
+        <img src="./pic-9.png" alt="">
+        <p>Clients are part of the team</p>
+      </div>
+      <div class="card">
+        <img src="./pic-10.png" alt="">
+        <p>Clients are part of the team</p>
+      </div>
+      <div class="card">
+        <img src="./pic-11.png" alt="">
+        <p>Here are some things you should know regarding how we work </p>
+      </div>
+      <div class="card">
+        <img src="./pic-12.png" alt="">
+        <p>Connecting artificial intelligence with digital product design</p>
+      </div>
+      <div class="card">
+        <img src="./pic-13.png" alt="">
+        <p>How modern remote working tools get along with Old School Cowboy's methods</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <p>&copy; 2024 Nordic Rose. All rights reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a> | 
+      <a href="#">Contact</a>
+    </p>
+  </footer>
+
+    
+</body>
+</html>
